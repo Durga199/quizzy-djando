@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-bew5w$5r90@llx@g&fhw+ht868^%0lp7$s2^w!hu3yi4^46t2#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['quizz-django.herokuapp.com','127.0.0.1:8000']
 CORS_ORIGIN_ALLOW_ALL = True
 REST_FRAMEWORK = {
     'DEFULT_AUTHENTICATION_CLASSES':{
